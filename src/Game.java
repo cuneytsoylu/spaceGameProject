@@ -124,7 +124,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     public Game() {
 
         try {
-            image = ImageIO.read(new FileImageInputStream(new File("uzaygemisi.png")));
+            image = ImageIO.read(new FileImageInputStream(new File("spacerocket.png")));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
